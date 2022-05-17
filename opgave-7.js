@@ -10,8 +10,10 @@ module.exports = {gemiddelde}
 function gemiddelde(cijfers) {
   // cijfers is een array
   var uitkomst = undefined;
-  
-  
+  for (var i = 0; i < cijfers.length; i++){
+    return cijfers/cijfers.length;
+    
+  }
   
   return uitkomst;
 }
