@@ -7,13 +7,13 @@ module.exports = {alleCijfers}
 */
 
 function alleCijfers() {
-  var uitkomst = "";
+  var uitkomst = "0123456789";
     
   // maak voorwaarde van de for-loop juist en schrijf de juiste regel IN de for-loop
-  for (var teller = 0; teller < ___ ; teller++) {
+  for (var teller = 0; teller < alleCijfers.length ; teller++) {
 
       //typ hieronder nog één regel code om de opdracht op te lossen 
-      
+      uitkomst = uitkomst + teller;
   }
   
   return uitkomst;
